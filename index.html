@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>online movie webpage</title>
+    <style>
+        #head{
+            background-color: beige;
+        }
+        #first{
+            font-family:'Gill Sans', 'Gill Sans MT';
+        }
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+}
+
+/* Clear floats after image containers */
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        #second{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: 400;
+        }
+        #foot{
+            background-color: beige;
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <header id="head">
+        <p id="first">
+            <h2 id="first">Welcome to online movie catalog website</h2>
+            <nav>
+            <span><a href="login.html" target="_blank">Login</a></span>
+            <span><a href="login.html">Create new account</a></span>
+            </nav>
+        </p>
+    </header>
+    <article id="first">
+        <p>This is a movie catalog website that is 
+            developed using html and css</p>
+    </article>
+    <div class="row">
+        <div class="column" id="first">
+            <figure><img src ="images/avatar.jpg">
+            <figcaption>avatar</figcaption></figure>
+            
+        </div>
+    
+        <div class="column" id="first">
+            <figure><img src ="images/dark.jpg">
+            <figcaption>dark knight</figcaption></figure>
+
+        
+        </div>
+    </div>
+    <p id="second">Browse by specifics</p>
+    <menu id="first">
+        <details>
+            <summary>artists</summary>
+            <li><a href="artist.html">daniel craig</a></li>
+            <li>tom holland</li>
+        </details><br>
+        <details>
+            <summary>languages</summary>
+            <li>tamil</li>
+            <li>english</li>
+        </details><br>
+        <details>
+            <summary>category</summary>
+            <li>horror</li>
+            <li>comedy</li>
+        </details><br>
+    </menu>
+    <footer id="foot">
+        <p>Developed by Somanathan R</p>
+        <p><a href="mailto:sr0451@srmist.edu.in">email us</a></p>
+    </footer>
+
+</body>
+</html>
